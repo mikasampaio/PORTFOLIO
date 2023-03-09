@@ -44,6 +44,10 @@ header {
 
 /* Home */
 
+#inicio{
+    height: 85vh;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
