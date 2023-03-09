@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background: rgb(86, 0, 117);
+background: linear-gradient(90deg, rgba(86, 0, 117, 1) 45%, rgba(133, 0, 181, 1) 100%); */
+
+/* Navegação */
+header {
+    background: rgb(86, 0, 117);
+    background: linear-gradient(90deg, rgba(86, 0, 117, 1) 30%, rgba(132, 0, 180, 1) 100%);
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.logo-mika {
+    width: 100px;
+    height: auto;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #F3DBFB;
+}
+/* Fim da navegação */
+
+#inicio, #about, #project, #contact {
+    padding: 50px;
+}
+
+/* Home */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #818181;
+}
+
+.programation {
+    width: 400px;
+}
+
+/* Fim do home */
+
+/* About */
+#about {
+    background: rgb(204, 10, 202);
+    background: linear-gradient(90deg, rgba(204, 10, 202, 1) 30%, rgba(44, 10, 194, 1) 100%);
+    height: 100vh;
+}
+
+.title-about,
+.title-contact {
+    color: white;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+    width: 50%;
+}
+
+.container-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bem-vindos {
+    color: white;
+    text-align: center;
+    line-height: 55px;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    width: 685px;
+    line-height: 30px;
+}
+/* Fim do about */
+
+
+/* Projects */
+.container-title {
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-project {
+    color: black;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+.container-project {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 7px 25px 1px rgba(133, 0, 181, .5);
+    transition: .5s;
+}
+
+.cards:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.cards:first-child {
+    margin-left: 0;
+}
+
+.card-img img {
+    width: 400px;
+    height: auto;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.title-card {
+    font-size: 20px;
+    color: black;
+}
+
+.text-card {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    width: 260px;
+    margin-top: 10px 0;
+}
+
+button {
+    color: white;
+    background: rgba(133, 0, 181, .8);
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s;
+}
+
+button:hover {
+    background: rgba(133, 0, 181, .1);
+    color: black;
+    border: 2px solid rgba(133, 0, 181, .8);
+}
+
+/* Fim do project */
+
+/* Contact */
+
+#contact {
+    background: rgb(204, 10, 202);
+    background: linear-gradient(90deg, rgba(204, 10, 202, 1) 30%, rgba(44, 10, 194, 1) 100%);
+}
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 7px 25px 1px rgba(255, 255, 255, .5);
+    margin-left: 50px;
+    padding-top: 10px;
+    transition: .5s;
+}
+
+.icon:first-child{
+    margin-left: 0;
+}
+
+.icon:hover{
+    transform: scale3d(1.1, 1.1, 2);
+}
+
+.contact-link{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-logo{
+    width: 50px;
+}
+
+.subtitle-contact{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 15px 0;
+}
+
+.text-contact{
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+/* Fim do contact */
+
