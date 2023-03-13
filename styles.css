@@ -406,5 +406,9 @@ button:hover {
     .cards {
         width: 95%;
     }
+    
+    .cards:hover {
+        transform: none;
+    }
 
 }
