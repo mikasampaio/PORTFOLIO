@@ -8,22 +8,32 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap"
+        rel="stylesheet">
     <title>Mikaeli Sampaio - Portfólio</title>
     <link rel="shortcut icon" href="./assets/logo-head.png">
 </head>
 
 <body>
     <header>
+
         <div class="navegacao">
             <img class="logo-mika" src="./assets/logo.png" alt="logo-mika">
+            <input type="checkbox" name="" id="check">
+                <label for="check" class="checkbutton">
+                    <img class="menu" src="./assets/icons8-menu-arredondado-32.png" alt="">
+                </label>
+
             <div class="links">
                 <a class="nav-link" href="#inicio">Início</a>
                 <a class="nav-link" href="#about">Sobre</a>
                 <a class="nav-link" href="#project">Projetos</a>
-                <a class="nav-link" href="#contact">Contatos</a>
+                <a class="nav-link" href="#contact">Contatos</a> 
             </div>
+
         </div>
+
     </header>
     <main>
         <section id="inicio">
@@ -43,14 +53,17 @@
                 <h2 class="title-about">SOBRE MIM</h2>
             </div>
             <div class="container-about">
-                <div>
-                    <img class="my-foto" src="./assets/logomika.png" alt="foto-mika">
+                <div class="foto">
+                    <img class="my-foto" src="./assets/foto.png" alt="foto-mika">
                 </div>
-                <div>
+                <div class="container-text">
                     <h2 class="bem-vindos">Sejam bem-vindos ao meu portfólio!</h2>
-                    <p>Olá, meu nome é Mikaeli e tenho 18 anos. Iniciei minha jornada profissional na área de agronegócio,
-                        mas com o passar do tempo fui conhecendo a área de Programação e me encantei pela profissão. Hoje, sou formada em Técnica em Agropecuária,
-                        porém estou passando por uma transição de carreira como programadora. No momento, estou estudando HTML, CSS e JAVASCRIPT e também
+                    <p class="text-about">Olá, meu nome é Mikaeli e tenho 18 anos. Iniciei minha jornada profissional na
+                        área de agronegócio,
+                        mas com o passar do tempo fui conhecendo a área de Programação e me encantei pela profissão.
+                        Hoje, sou formada em Técnica em Agropecuária,
+                        porém estou passando por uma transição de carreira como programadora. No momento, estou
+                        estudando HTML, CSS e JAVASCRIPT e também
                         realizando projetos para web designers e responsividade.
                     </p>
                 </div>
@@ -118,11 +131,7 @@
                     </div>
                     <!-- Card texto 3 -->
                 </div>
-            </div>
-        </section>
 
-        <section id="project">
-            <div class="container-project">
                 <!-- Card 4 -->
 
                 <!-- Card 4 -->
@@ -182,8 +191,8 @@
                 </div>
                 <!-- Card 6 -->
             </div>
-        </section>
 
+        </section>
         <section id="contact">
             <div class="container-title">
                 <h2 class="title-contact">CONTATOS</h2>
