@@ -185,7 +185,7 @@ p {
     color: black;
     font-weight: 400;
     width: 260px;
-    margin-top: 10px 0;
+    text-align: center;
 }
 
 button {
