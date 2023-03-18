@@ -126,6 +126,22 @@ p {
     line-height: 30px;
 }
 
+.curriculo-button {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+.curriculo-button:hover {
+    box-shadow: 1px 7px 25px 1px rgba(255, 255, 255, 0.8);
+    color: white;
+    border: none;
+}
+
+.curriculo-button:active {
+    opacity: .7;
+}
+
 /* Fim do about */
 
 
@@ -405,7 +421,7 @@ button:hover {
     .cards {
         width: 95%;
     }
-    
+
     .cards:hover {
         transform: none;
     }
