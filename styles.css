@@ -165,7 +165,14 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+ /*    overflow: auto;
+    scroll-snap-type: x mandatory; */
 }
+
+/* .container-project .cards {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+} */
 
 .cards {
     width: 383px;
@@ -224,6 +231,33 @@ button:hover {
 }
 
 /* Fim do project */
+
+#btnTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #F3DBFB;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid #000000;
+    border-width: 0 6px 6px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
 
 /* Contact */
 
