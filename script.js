@@ -2,9 +2,8 @@ const btn = document.getElementById("btnTop")
 
 btn.addEventListener("click", () => {
     window.scrollTo(0,0)
+    document.removeEventListener("scroll", ocult)
 })
-
-document.addEventListener("scroll", ocult)
 
 const ocult = () => {
     if (window.scrollY > 10) {
@@ -13,5 +12,10 @@ const ocult = () => {
         btn.style.display = "none"
     }
 }
+
+document.addEventListener("scroll", () => {
+    ocult()
+    document.removeEventListener("scroll", ocult)
+})
 
 ocult()

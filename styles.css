@@ -165,7 +165,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
- /*    overflow: auto;
+    /*    overflow: auto;
     scroll-snap-type: x mandatory; */
 }
 
@@ -245,6 +245,7 @@ button:hover {
     justify-content: center;
     flex-direction: row;
     cursor: pointer;
+    display: none;
 }
 
 .arrow {
