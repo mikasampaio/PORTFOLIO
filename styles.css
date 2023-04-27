@@ -39,7 +39,7 @@
 }
 
 body {
-    transition: background 0.2s linear;
+    transition: background 0.5s linear;
 }
 
 html {
@@ -48,9 +48,6 @@ html {
 
 /* Navegação */
 header {
-    /*     background: rgb(86, 0, 117);
-    background: linear-gradient(90deg, rgba(86, 0, 117, 1) 30%, rgba(132, 0, 180, 1) 100%);
- */
     background: var(--header-background);
 }
 
@@ -135,7 +132,7 @@ header {
     width: 40px;
     cursor: pointer;
     display: none;
-} 
+}
 
 .burger {
     display: none;
@@ -144,11 +141,11 @@ header {
 .burger div {
     width: 25px;
     height: 3px;
-    background: #FFFFFF; 
+    background: #FFFFFF;
     margin: 5px;
     transition: all .5s ease;
     cursor: pointer;
-} 
+}
 
 .links {
     display: flex;
@@ -169,7 +166,7 @@ header {
 #inicio {
     display: flex;
     align-items: center;
- justify-content: center;
+    justify-content: center;
     background: var(--body-bg);
     height: 85vh;
 }
@@ -181,13 +178,13 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     color: var(--title-color);
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     color: var(--subtitle-color);
 }
@@ -200,7 +197,11 @@ h2 {
 
 /* About */
 #about {
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 95vh;
     background: var(--about-bg);
 }
 
@@ -214,7 +215,7 @@ h2 {
 
 .container-about {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -223,9 +224,14 @@ h2 {
     margin-right: 15px;
 }
 
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bem-vindos {
     color: white;
-    text-align: center;
     line-height: 55px;
 }
 
@@ -234,6 +240,7 @@ p {
     text-align: justify;
     width: 600px;
     line-height: 30px;
+    text-indent: 1.4em;
 }
 
 .curriculo-button {
@@ -431,13 +438,14 @@ button:hover {
 
 @media screen and (max-width: 1100px) {
 
-   #inicio {
-    height: 80vh;
-   }
+    #inicio {
+        height: 80vh;
+        gap: 10%;
+    }
 
-   .container {
-    gap: 0;
-   }
+    .container {
+        gap: 0;
+    }
 
     #about {
         padding: 35px;
@@ -452,8 +460,6 @@ button:hover {
     .navegacao {
         padding: 5px 15px;
     }
-
-    
 
     #inicio,
     #about,
@@ -512,6 +518,14 @@ button:hover {
         height: auto;
     }
 
+    .cards {
+        width: 350px;
+    }
+
+    .container-project {
+        gap: 25px;
+    }
+
     .container-icon {
         flex-direction: column;
         align-items: center;
@@ -547,7 +561,7 @@ button:hover {
     }
 
     .burger.active .line2 {
-        opacity: 0 
+        opacity: 0
     }
 
     .burger.active .line1 {
@@ -558,7 +572,7 @@ button:hover {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-      .links {
+    .links {
         position: fixed;
         top: 69px;
         right: -100%;
@@ -570,7 +584,7 @@ button:hover {
         height: 95vh;
         background: var(--header-background);
         transition: all .5s;
-        
+
     }
 
     .links.active {
