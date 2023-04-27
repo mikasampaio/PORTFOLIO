@@ -9,26 +9,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap"
         rel="stylesheet">
+
     <title>Mikaeli Sampaio - Portfólio</title>
     <link rel="shortcut icon" href="./assets/logo-head.png">
 </head>
 
 <body>
-    <header>
+
+    <header id="header">
         <div class="navegacao">
             <img class="logo-mika" src="./assets/logo.png" alt="logo-mika">
-            <input type="checkbox" name="" id="check">
-            <label for="check" class="checkbutton">
-                <img class="menu" src="./assets/icons8-menu-arredondado-32.png" alt="">
-            </label>
-
+            
             <div class="links">
+                <div>
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label for="chk" class="label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+
                 <a class="nav-link" href="#inicio">Início</a>
                 <a class="nav-link" href="#about">Sobre</a>
                 <a class="nav-link" href="#project">Projetos</a>
                 <a class="nav-link" href="#contact">Contatos</a>
+            </div>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
         </div>
     </header>
@@ -40,7 +55,7 @@
                     <h2>Programadora Front-End</h2>
                 </div>
                 <div>
-                    <img class="programation" src="./assets/Programação.png" alt="">
+                    <img class="programation" src="./assets/undraw_pair_programming_re_or4x.svg" alt="">
                 </div>
             </div>
         </section>
@@ -51,7 +66,7 @@
             </div>
             <div class="container-about">
                 <div class="foto">
-                    <img class="my-foto" src="./assets/foto.png" alt="foto-mika">
+                    <img class="my-foto" src="./assets/profile-pic.png" alt="foto-mika">
                 </div>
                 <div class="container-text">
                     <h2 class="bem-vindos">Sejam bem-vindos ao meu portfólio!</h2>
@@ -247,7 +262,7 @@
                     <a class="contact-link" href="mailto:mikaasampaio6@gmail.com" target="_blank">
 
                         <div class="logo">
-                            <img class="img-logo" src="./assets/SeekPng.com_envelope-icon-png_1336118.png" alt="email">
+                            <img class="img-logo" src="./assets/email.png" alt="email">
                             <h3 class="subtitle-contact">Email</h3>
                             <p class="text-contact">mikaasampaio6@gmail.com</p>
                         </div>
@@ -259,7 +274,7 @@
                 <div class="icon">
                     <a class="contact-link" href="https://www.linkedin.com/in/mikaeli-pereira/" target="_blank">
                         <div class="logo">
-                            <img class="img-logo" src="./assets/linkedin-logo.png" alt="linkedin-logo">
+                            <img class="img-logo" src="./assets/linkedin.png" alt="linkedin-logo">
                             <h3 class="subtitle-contact">LinKedin</h3>
                             <p class="text-contact">Mikaeli Pereira Sampaio</p>
 
@@ -272,10 +287,9 @@
                 <div class="icon">
                     <a class="contact-link" href="https://github.com/mikasampaio" target="_blank">
                         <div class="logo">
-                            <img class="img-logo" src="./assets/github-logo.png" alt="email">
+                            <i class="devicon-github-original"></i>
                             <h3 class="subtitle-contact">GitHub</h3>
                             <p class="text-contact">@mikasampaio</p>
-
                         </div>
                     </a>
                 </div>
@@ -284,6 +298,8 @@
     </main>
 
     <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
