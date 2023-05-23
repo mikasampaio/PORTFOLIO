@@ -8,7 +8,7 @@ desenvolvi meu portfólio profissional, onde você irá conhecer um pouco sobre 
 meus projetos finalizados e o meu contato. </p>
 <br>
 <div align="center">
-<img width="450px" src="https://github.com/mikasampaio/PORTFOLIO/blob/master/assets/127.0.0.1_5500_%20(1).png?raw=true">
+<img width="450px" src="./assets/readme.png">
 </div>
 
 <h3>Ferramentas utilizadas:</h3>
