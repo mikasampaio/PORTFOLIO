@@ -14,6 +14,7 @@ meus projetos finalizados e o meu contato. </p>
 <h3>Ferramentas utilizadas:</h3>
 <p>HTML</p>
 <p>CSS</p>
+<p>JAVASCRIPT</p>
 
 <a>https://mikasampaio.github.io/PORTFOLIO/</a>
 
