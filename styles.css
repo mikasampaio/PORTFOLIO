@@ -235,7 +235,7 @@ h2 {
     line-height: 55px;
 }
 
-p {
+.text-about {
     color: white;
     text-align: justify;
     width: 600px;
@@ -311,7 +311,11 @@ p {
 }
 
 .card-text {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
 }
 
 .title-card {
@@ -323,7 +327,7 @@ p {
     font-size: 15px;
     color: var(--text-color);
     font-weight: 400;
-    width: 260px;
+    width: 100%;
     text-align: center;
 }
 
