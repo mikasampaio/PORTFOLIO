@@ -3,7 +3,7 @@
 
 <h3 align="center">Bem-vindos ao meu portfólio </h3>
 
-<p>Olá, tudo bem com vocês? Eu me chamo Mikaeli e tenho 18 anos. Neste projeto,
+<p align="center">Olá, tudo bem com vocês? Eu me chamo Mikaeli e tenho 18 anos. Neste projeto,
 desenvolvi meu portfólio profissional, onde você irá conhecer um pouco sobre mim, 
 meus projetos finalizados e o meu contato. </p>
 <br>
